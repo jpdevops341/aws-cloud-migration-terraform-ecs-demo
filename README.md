@@ -13,7 +13,7 @@ This repo simulates a real-world cloud migration of a monolithic web application
 - Docker
 - AWS RDS, ALB, CloudWatch, WAF, X-Ray
 
-## 📦 Folder Structure
+## Folder Structure
 
 - `terraform/` - Main IaC logic
 - `modules/` - Reusable Terraform components
@@ -22,7 +22,7 @@ This repo simulates a real-world cloud migration of a monolithic web application
 - `runbooks/` - Markdown deployment guide
 - `diagrams/` - Architecture (optional)
 
-## 🚀 Use Case
+## Use Case
 
 > A Fortune 500 healthcare client needed to modernize their legacy on-prem Java web app. This project demonstrates how it was containerized, deployed on ECS Fargate, monitored with CloudWatch, secured with IAM/WAF, and automated with GitHub Actions.
 
